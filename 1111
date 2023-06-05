@@ -1,0 +1,61 @@
+<HTML>
+
+  <HEAD> <!----註：從這裡是抬頭部份的開始 ----->
+
+<TITLE>加深加廣</TITLE> <!---註：這是網頁主題--->
+
+  </HEAD> <!----註：從這裡是抬頭部份的結束 ----->
+
+   <body> <H4>hello hello</H4>
+ 
+  <hr size="7" align="center" noshade width="10%" color="005B93">
+  <H1><p align="center">加深加廣</p></H1>
+  <video autoplay loop muted> <source src="https://drive.google.com/file/d/1_FmVn6VMJCG2jDb47A64NCFhPeCso1XI/view?usp=drive_link"> </video>
+  <marquee scrollamount="15"size="10"color="	#6F00D2">yeeeee!!!</marquee>
+  <hr size="4" align="center" noshade width="20%" color="	#6F00D2" >    
+  </body>
+</HTML>
+<br></br>
+p{ 
+
+  background-color: #CE0000;
+
+  padding-top:100px; 
+
+  padding-left:100px; 
+
+  padding-right:100px; 
+
+  padding-bottom:100px; 
+
+  margin-top:100px; 
+
+  margin-left:100px; 
+
+  margin-right:100px; 
+
+  margin-bottom:100px;   
+  class="video-back"
+}
+document.write("你好啊!!!")
+.video-back{ 
+
+position:fixed;
+
+top:0;   
+
+left:0;
+
+min-width:100%;
+
+min-height:100%;
+
+z-index:-1;  
+var count = 0;
+    var counterElement = document.getElementById("counter");
+
+    function increment() {
+      count++;
+      counterElement.textContent = count;
+    }
+}
